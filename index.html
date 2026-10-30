@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NEXBIT</title>
+<meta name="description" content="NEXBIT — تسيير المحل: السلع، البيع، الديون والعمال، على هاتفك.">
+<style>
+  :root {
+    --primary: #1F5F5B; --sand: #B89A5E; --bg: #F6F7F6; --surface: #FFFFFF;
+    --text: #1B2421; --muted: #5F6B67; --divider: #E3E7E5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --primary: #7FC4BD; --sand: #D9C08A; --bg: #121816; --surface: #1A2220;
+            --text: #E6ECEA; --muted: #A3B0AB; --divider: #2B3532; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Tahoma, Arial, sans-serif; }
+  header { background: var(--primary); color: #fff; padding: 32px 16px; text-align: center; }
+  header .logo { display: inline-flex; width: 64px; height: 64px; border-radius: 16px;
+                 background: #fff; color: var(--primary); font-size: 40px; font-weight: 700;
+                 align-items: center; justify-content: center; }
+  header h1 { margin: 12px 0 0; font-size: 32px; letter-spacing: 1px; }
+  nav { text-align: center; padding: 12px 16px; }
+  nav a { color: var(--primary); margin: 0 8px; text-decoration: none; font-weight: 600; }
+  main { max-width: 760px; margin: 0 auto; padding: 0 16px 48px; }
+  section { background: var(--surface); border: 1px solid var(--divider); border-radius: 12px;
+            padding: 20px; margin: 16px 0; }
+  section[dir="ltr"] { text-align: left; }
+  h2 { margin-top: 0; color: var(--primary); }
+  .tag { color: var(--muted); }
+  a.btn { display: inline-block; margin-top: 8px; padding: 10px 16px; border-radius: 10px;
+          background: var(--primary); color: #fff; text-decoration: none; }
+  @media (prefers-color-scheme: dark) { a.btn { color: #0D2422; } header .logo { color: #1F5F5B; } }
+  footer { text-align: center; color: var(--muted); padding: 16px; font-size: 14px; }
+  .mail { color: var(--sand); font-weight: 600; }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">N</div>
+  <h1>NEXBIT</h1>
+</header>
+<nav><a href="#ar">العربية</a> · <a href="#fr">Français</a> · <a href="#en">English</a></nav>
+<main>
+  <section id="ar" lang="ar" dir="rtl">
+    <h2>NEXBIT</h2>
+    <p class="tag">تطبيق بسيط لتسيير محلك على هاتفك: السلع، البيع والشراء، الديون، الصندوق والعمال.</p>
+    <p>بياناتك تبقى في هاتفك، ونسختها الاحتياطية في Google Drive الخاص بك.</p>
+    <p>للتواصل: <span class="mail">[contact e-mail]</span></p>
+    <a class="btn" href="privacy.html#ar">سياسة الخصوصية</a>
+  </section>
+  <section id="fr" lang="fr" dir="ltr">
+    <h2>NEXBIT</h2>
+    <p class="tag">Une application simple pour gérer votre commerce sur votre téléphone : stock, ventes et achats, dettes, caisse et employés.</p>
+    <p>Vos données restent sur votre téléphone ; leur sauvegarde va dans votre propre Google Drive.</p>
+    <p>Contact : <span class="mail">bassempianiste@gmail.com</span></p>
+    <a class="btn" href="privacy.html#fr">Politique de confidentialité</a>
+  </section>
+  <section id="en" lang="en" dir="ltr">
+    <h2>NEXBIT</h2>
+    <p class="tag">A simple app to run your shop on your phone: stock, sales and purchases, debts, cash box and workers.</p>
+    <p>Your data stays on your phone; its backup goes to your own Google Drive.</p>
+    <p>Contact: <span class="mail">[contact e-mail]</span></p>
+    <a class="btn" href="privacy.html#en">Privacy policy</a>
+  </section>
+</main>
+<footer>NEXBIT</footer>
+</body>
+</html>
